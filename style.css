@@ -12,7 +12,7 @@
     height:150px;
     position:relative;
 }
-.update{
+.Place{
     background-color: rgb(0, 0, 0);
     color:white;
     position: absolute;
@@ -21,12 +21,12 @@
     transform: translateX(-50%);
     padding: 4px 8px;
 }
-.company{
+.design{
     background-color: rgba(29, 83, 134, 0.41);
     color:white;
     position:absolute;
     bottom:0;
-    right:0;
+    left: 0;
     padding:4px 8px;
 }
 .info{
@@ -61,7 +61,7 @@
     margin:16px;
 }
 .card:hover{
-    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow:0 4px 8px 0 rgb(25, 131, 57);
 }
 a{
     text-decoration:none;
